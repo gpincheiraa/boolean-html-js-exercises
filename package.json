@@ -1,9 +1,9 @@
 {
   "name": "boolean-html-js-exercises",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "",
   "bin": {
-     "boolean-html-js-exercises": "./bin/cli.js"
+    "boolean-html-js-exercises": "./bin/cli.js"
   },
   "scripts": {
     "start": "webpack-dev-server",
@@ -26,11 +26,7 @@
     "transform": {
       "^.+\\.js$": "babel-jest",
       "^.+\\.md$": "markdown-loader-jest"
-    },
-    "testURL": "http://localhost:3000",
-    "testMatch": [
-      "<rootDir>/**/*_spec.js"
-    ]
+    }
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
