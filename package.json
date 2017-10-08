@@ -26,11 +26,7 @@
     "transform": {
       "^.+\\.js$": "babel-jest",
       "^.+\\.md$": "markdown-loader-jest"
-    },
-    "testURL": "http://localhost:3000",
-    "testMatch": [
-      "<rootDir>/**/*_spec.js"
-    ]
+    }
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
