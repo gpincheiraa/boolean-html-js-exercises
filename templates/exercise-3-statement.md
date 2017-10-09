@@ -5,5 +5,6 @@ En el archivo `./exercises/3.js` se entrega una función en la que se debe resol
 **Tip 1:** Usar `addEventListener` para reconocer el click en el botón.
 
 **Tip 2:** Utilizar `cloneNode(true)` para clonar la tabla.
+
 **Tip 3:** Utilizar `setInterval()` para cambiar los colores de las filas aleatoriamente.
 **Tip 4:** Para obtener un número aleatorio entre 0 y < x, utilizar la siguiente expresión: `Math.trunc(Math.random() * x)`.
