@@ -1,16 +1,11 @@
-#### 3 - Agregar funcionalidad a un botón y utilizar setInterval
+#### 3 - Dar funcionalidad a un botón y utilizar setInterval
 
-En el archivo `./exercises/3.js` se provee un función para resolver este ejercicio. Dentro de esta función
-escriba un código que clone la tabla resultante del ejercicio 2 que debería estar contenida dentro de un div
-con id `exercise-result-2` y agreguela al div `resultDiv`.
-Luego dar funcionalidad al botón que está en el div `sourceDiv`. Este botón debe, al ser
-presionado, comenzar a cambiar cada 2 segundos, de manera aleatoria el color de alguna de las filas
-donde están los datos con un color también aleatorio. Una vez presionado el botón este debe cambiar su texto a `Detener` y al ser presionado debe volver al texto que tenía originalmente y detener el funcionamiento del cambio de color aleatorio.
+En el archivo `./exercises/3.js` se entrega una función en la que se debe resolver el ejercicio. En dicha función se tienen dos parámetros, `sourceDiv` que contiene un botón y `resultDiv` para entregar la solución. Esta tarea consiste en clonar la tabla resultante del ejercicio 2, la cual se encuentra en un div con Id `exercise-result-2`, también se debe dar funcionalidad al botón, de manera que al ser presionado haga cambiar aleatoriamente cada 2 segundos tanto el color como la fila que está afectando. Además se debe cambiar el texto del botón a Detener y al presionar el botón con texto Detener debe dejar de hacer cambios en la tabla.
 
-**Nota:**
-- Utilizar `addEventListener` para reconocer el click en el botón
-- Utilizar `cloneNode(true)` para clonar
-la tabla del ejercicio 2
-- Utilizar `setInterval()` para cambiar los colores de las filas aleatoriamente.
+**Tip 1:** Usar `addEventListener` para reconocer el click en el botón.
 
-**Tip:** Para obtener un número aleatorio entre 0 y < x, utilice esta expresión: `Math.trunc(Math.random() * x)`
+**Tip 2:** Utilizar `cloneNode(true)` para clonar la tabla.
+
+**Tip 3:** Utilizar `setInterval()` para cambiar los colores de las filas aleatoriamente.
+
+**Tip 4:** Para obtener un número aleatorio entre 0 y < x, utilizar la siguiente expresión: `Math.trunc(Math.random() * x)`.
