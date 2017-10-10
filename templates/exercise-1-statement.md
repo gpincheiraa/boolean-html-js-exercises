@@ -1,8 +1,5 @@
-#### 1 - Agregar  elementos a un HTMLDivElement y aplicarle un estilo
+#### 1 - Agregar elementos a un HTMLDivElement y aplicarle un estilo
 
-En el archivo `./exercises/1.js` se provee un función para resolver este ejercicio. Dentro de esta función
-escriba un código que dado un texto dentro del div `sourceDiv` dado como primer parámetro de la función,
-aumente/disminuya el *font-size* cada 6 caracteres partiendo con el tamaño 12.
-El aumento debe ser de a `6px` y el resultado debe agregarse en el div llamado `resultDiv` también dado como parametro de la función.
+En el archivo `./exercises/1.js` se entrega una función en la cual se debe resolver el ejercicio. En dicha función se tienen dos parámetros, `sourceDiv` que contiene el texto a trabajar y `resultDiv` para entregar la solución. El texto de `sourceDiv` se debe modificar, de manera que el *font size* aumente/disminuya cada 6 caracteres en `6px` (iniciando en 12px).
 
-**Nota:** A los espacios en blanco no se les puede aplicar cambio en el *font-size*
+**Nota:** los espacios no se deben considerar para este cambio.
