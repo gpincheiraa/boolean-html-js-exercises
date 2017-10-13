@@ -11,4 +11,4 @@ Se debe tomar el texto del `sourceDiv` y entregrarlo en el resultado cumpliendo 
 - Los espacios no se deben considerar para este cambio.
 
 El resultado final debe verse como en la siguiente imagen:
-![exercise1](https://raw.githubusercontent.com/gpincheiraa/boolean-html-js-exercises/dev/templates/boolean-html-js-exercises-ex1.png) 
+![exercise2](https://raw.githubusercontent.com/gpincheiraa/boolean-html-js-exercises/dev/templates/boolean-html-js-exercises-ex1.png) 
