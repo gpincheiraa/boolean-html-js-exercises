@@ -7,3 +7,13 @@ div[id*="-area"] > fieldset {
         border: 1px black;
     }
 }
+div#exercise-3 {
+    #button-container {
+        float: left;
+        width: 10%;
+    }
+    #exercise-timer {
+        float: left;
+        .minutes, .seconds, .separator{ float: left; text-align: center; font-weight: bolder; }
+    }
+}
