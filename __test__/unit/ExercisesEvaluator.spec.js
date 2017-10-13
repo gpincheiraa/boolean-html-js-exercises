@@ -55,20 +55,22 @@ describe("ExercisesEvaluator Class", () => {
     it("should return a random color on method generateRandomColor", () => {
         jest.spyOn(global.Math, 'random')
             .mockReturnValueOnce(0.1)
-            .mockReturnValueOnce(0.6)
+            .mockReturnValueOnce(0.9)
 
-        expect(exercisesEvaluator.generateRandomColor()).toEqual("red")
-        expect(exercisesEvaluator.generateRandomColor()).toEqual("green")
+        expect(exercisesEvaluator.generateRandomColor()).toEqual("orange")
+        expect(exercisesEvaluator.generateRandomColor()).toEqual("chocolate")
     })
     it("should evaluate the function from exercises list and pass the right params", () => {
         const divs = [
             {
-                innerHTML: ""
+                innerHTML: "",
+                querySelector: () => ({ addEventListener: jest.fn() })
             },
             {
-                innerHTML: ""
+                innerHTML: "",
+                querySelector: () => ({ addEventListener: jest.fn() })
             }
-        ]
+        ];
         jest.spyOn(global.document, 'getElementById')
             .mockReturnValueOnce(divs[0])
             .mockReturnValueOnce(divs[1])
