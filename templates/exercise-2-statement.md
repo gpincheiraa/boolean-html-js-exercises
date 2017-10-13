@@ -1,9 +1,7 @@
-#### 2 - Crear una tabla dinámicamnte a partir de procesar texto en formato JSON
+#### 2 - Crear dinámicamente una tabla a partir de datos en formato JSON
 
-En el archivo `./exercises/2.js` se provee un función para resolver este ejercicio. Dentro de esta función
-escriba un código que dado una definición JSON dibuje una tabla y basado en un array de objectos.
-Se debe usar la etiqueta `<table>` y utilizar `<thead>` y `<th>` para los headers de la tabla y `<tbody>`, `<tr>` y `<td>` para las columnas y filas con el contenido.
-La table resultante debe quedar dentro del div `resultDiv`.
+En el archivo `./exercises/2`.js se entrega una función en la que debe resolver el ejercicio. En dicha función se tienen dos parámetros, `sourceDiv` que contiene un array de objetos en formato JSON y `resultDiv` para entregar la solución. La tarea consiste en dibujar una tabla basada en los datos que contiene el JSON en `sourceDiv`, utilizando la etiqueta `<table>`, `<thead>` y `<th>` para los headers, y `<tbody>`, `<tr>` y `<td>`  para las columnas y filas con el contenido.
 
-**Nota:** Utilizar `JSON.parse()` para transformar el texto en el div `sourceDiv` en un objeto y usar `Object.keys` para obtener
-las `key` de cada objeto que serviran de titulo para las columnas. Basta con obtener las keys del primer objeto para usar esas como nombre de las columnas.
+**Tip 1:** Utilizar `JSON.parse()` para transformar el texto en el div `sourceDiv` en un objeto.
+
+**Tip 2:** Usar `Object.keys` para obtener las keys de cada objeto y que servirán de título para las columnas.
