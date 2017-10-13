@@ -2,7 +2,7 @@
 
 En el archivo `./exercises/1.js` se entrega una función en la cual se debe resolver el ejercicio. En dicha función se tienen dos parámetros:
 - `sourceDiv` HTMLDivElement que contiene el texto a trabajar.
-- `resultDiv` HTMLDivElement donde se deben anadir la solución.
+- `resultDiv` HTMLDivElement donde se debe añadir la solución.
 
 Se debe tomar el texto del `sourceDiv` y entregrarlo en el resultado cumpliendo lo siguiente: 
 - El primer caracter debe tener *font size* 12 px.
