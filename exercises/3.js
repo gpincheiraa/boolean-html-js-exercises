@@ -17,10 +17,19 @@ export default function(sourceDiv, resultDiv, generateRandomColor) {
     let intervalFunction = null;
     let running = false;
     let randomRow = null;
+    let lastIndexRow = null;
 
     const applyColorToRow = () => {
-        randomRow = rows[ Math.random() * rows.length | 0 ];
-        randomRow.style.backgroundColor = generateRandomColor();
+        const newRowIndex = Math.random() * rows.length | 0 ;
+
+        if(newRowIndex === lastIndexRow) {
+            lastIndexRow = newRowIndex;
+            applyColorToRow();
+        } else {
+            randomRow = rows[newRowIndex];
+            randomRow.style.backgroundColor = generateRandomColor();
+            lastIndexRow = newRowIndex;
+        }
     }
 
     button.addEventListener('click', () => {
